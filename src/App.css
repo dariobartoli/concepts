@@ -10,27 +10,27 @@
 
 h1,h2,h3,h4,h5,h6{
   text-wrap: balance;
-  color: #535C91;
+  color: #FC6736;
   font-weight: bold;
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 h4{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 p{
   text-wrap: pretty;
-  color: #9290C3;
-  font-size: 1.1rem;
+  color: #FFB0B0;
+  font-size: 1rem;
 
 }
 li{
-  color: #8a9be7;
-  font-size: 1.1rem;
+  color: #FFB0B0;
+  font-size: 1rem;
 }
 img{
   width: 99%;
@@ -44,7 +44,7 @@ section{
 }
 
 .body{
-  background-color: #070F2B;
+  background-color: #0C2D57;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,3 +76,16 @@ section{
   font-weight: bold;
 }
 
+
+@media (width > 600px) {
+  h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+  h4{
+    font-size: 2rem;
+  }
+  p,li{
+    font-size: 1.1rem;
+  }
+}
